@@ -31,4 +31,4 @@ jobs:
     - name: Set code coverage commit status 📫
       run: npx set-gh-status
     env:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GITHUB_TOKEN: ${{ secrets.New_Deploy_Secret}}
